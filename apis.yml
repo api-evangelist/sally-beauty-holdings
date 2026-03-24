@@ -1,0 +1,7 @@
+aid: sally-beauty-holdings
+url: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/apis.yml
+modified: '2026-03-24'
+apis: []
+common:
+  - type: Website
+    url: https://www.sally-beauty-holdings.com
