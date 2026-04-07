@@ -1,7 +1,12 @@
 aid: sally-beauty-holdings
-url: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.sally-beauty-holdings.com
+description: >-
+  Sally Beauty Holdings is a leading international specialty retailer and distributor
+  of professional beauty supplies, with stores under the Sally Beauty Supply and Beauty
+  Systems Group banners.
