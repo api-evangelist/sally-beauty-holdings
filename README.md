@@ -14,7 +14,9 @@ Sally Beauty Holdings, Inc. is a leading international specialty retailer and di
 - **Corporate Website**: [sallybeautyholdings.com](https://www.sallybeautyholdings.com)
 - **Sally Beauty Supply**: [sallybeauty.com](https://www.sallybeauty.com)
 - **CosmoProf (BSG)**: [cosmoprofbeauty.com](https://www.cosmoprofbeauty.com)
+- **Armstrong McCall**: [armstrongmccall.com](https://www.armstrongmccall.com)
 - **Investor Relations**: [sallybeautyholdings.com/investor-relations](https://www.sallybeautyholdings.com/investor-relations)
+- **Loyalty Program**: [Beauty Club Card](https://www.sallybeauty.com/beauty-club-card)
 - **LinkedIn**: [linkedin.com/company/sally-beauty-company](https://www.linkedin.com/company/sally-beauty-company)
 
 ## Artifacts
