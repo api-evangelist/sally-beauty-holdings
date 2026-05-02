@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "gs1": "https://www.gs1.org/voc/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sbh": "https://api-evangelist.github.io/sally-beauty-holdings/vocab#",
+
+    "Product": {
+      "@id": "schema:Product",
+      "@context": {
+        "id": "schema:sku",
+        "name": "schema:name",
+        "brand": "schema:brand",
+        "description": "schema:description",
+        "category": "schema:category",
+        "subcategory": "schema:category",
+        "price": "schema:price",
+        "professional_price": "sbh:professionalPrice",
+        "currency": "schema:priceCurrency",
+        "upc": {
+          "@id": "schema:gtin12",
+          "@type": "xsd:string"
+        },
+        "images": "schema:image",
+        "available_online": "schema:availableDeliveryMethod",
+        "available_in_store": "schema:availableAtOrFrom",
+        "professional_only": "sbh:professionalOnly",
+        "channel": "sbh:salesChannel"
+      }
+    },
+
+    "Store": {
+      "@id": "schema:Store",
+      "@context": {
+        "id": "@id",
+        "name": "schema:name",
+        "address": "schema:address",
+        "phone": "schema:telephone",
+        "hours": "schema:openingHours",
+        "channel": "sbh:storeChannel"
+      }
+    },
+
+    "Order": {
+      "@id": "schema:Order",
+      "@context": {
+        "id": "@id",
+        "orderNumber": "schema:orderNumber",
+        "customer": "schema:customer",
+        "items": "schema:orderedItem",
+        "total": "schema:price",
+        "status": "schema:orderStatus",
+        "created_at": {
+          "@id": "schema:orderDate",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "SallyBeautySupply": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "url": "schema:url",
+        "type": "schema:additionalType",
+        "description": "schema:description"
+      }
+    },
+
+    "BeautySystemsGroup": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "url": "schema:url",
+        "description": "schema:description",
+        "professionalOnly": "sbh:professionalOnly"
+      }
+    }
+  }
+}

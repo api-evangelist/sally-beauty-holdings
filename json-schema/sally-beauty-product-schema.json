@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/sally-beauty-holdings/json-schema/sally-beauty-product-schema.json",
+  "title": "Sally Beauty Product",
+  "description": "A beauty product in the Sally Beauty Holdings product catalog, sold through Sally Beauty Supply or BSG professional distribution channels.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique product identifier (SKU)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Product name"
+    },
+    "brand": {
+      "type": "string",
+      "description": "Brand name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description"
+    },
+    "category": {
+      "type": "string",
+      "description": "Product category",
+      "enum": [
+        "Hair Color",
+        "Hair Care",
+        "Nail",
+        "Skin Care",
+        "Tools & Appliances",
+        "Salon Furniture",
+        "Salon Supplies",
+        "Accessories"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Product subcategory"
+    },
+    "price": {
+      "type": "number",
+      "description": "Retail price in USD"
+    },
+    "professional_price": {
+      "type": "number",
+      "description": "Professional (BSG) price for licensed salon professionals"
+    },
+    "currency": {
+      "type": "string",
+      "default": "USD",
+      "description": "Currency code"
+    },
+    "upc": {
+      "type": "string",
+      "description": "Universal Product Code"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "alt": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["primary", "alternate", "swatch"]
+          }
+        }
+      },
+      "description": "Product image URLs"
+    },
+    "available_online": {
+      "type": "boolean",
+      "description": "Whether product is available for online purchase"
+    },
+    "available_in_store": {
+      "type": "boolean",
+      "description": "Whether product is available in physical stores"
+    },
+    "professional_only": {
+      "type": "boolean",
+      "description": "Whether product is restricted to licensed professionals (BSG only)"
+    },
+    "channel": {
+      "type": "string",
+      "description": "Sales channel",
+      "enum": ["sally", "bsg", "both"]
+    },
+    "ratings": {
+      "type": "object",
+      "properties": {
+        "average": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "count": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": ["id", "name", "brand"],
+  "additionalProperties": false
+}

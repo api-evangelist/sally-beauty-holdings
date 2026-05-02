@@ -1,0 +1,35 @@
+{
+  "title": "Sally Beauty Product Structure",
+  "description": "JSON structure documentation for the Sally Beauty Holdings product entity",
+  "type": "object",
+  "structure": {
+    "id": "string - Product SKU/identifier [required]",
+    "name": "string - Product name [required]",
+    "brand": "string - Brand name [required]",
+    "description": "string - Product description",
+    "category": "string - Category (Hair Color|Hair Care|Nail|Skin Care|Tools & Appliances|Salon Furniture|Salon Supplies|Accessories)",
+    "subcategory": "string - Subcategory",
+    "price": "number - Retail price USD",
+    "professional_price": "number - BSG professional price",
+    "currency": "string - Currency code (default: USD)",
+    "upc": "string - Universal Product Code",
+    "images": {
+      "type": "array",
+      "items": {
+        "url": "string(uri) - Image URL",
+        "alt": "string - Alt text",
+        "type": "string - Image type (primary|alternate|swatch)"
+      }
+    },
+    "availability": {
+      "available_online": "boolean - Online purchase available",
+      "available_in_store": "boolean - In-store available",
+      "professional_only": "boolean - Licensed professionals only"
+    },
+    "channel": "string - Sales channel (sally|bsg|both)",
+    "ratings": {
+      "average": "number(0-5) - Average rating",
+      "count": "integer - Total review count"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+vocabulary:
+  title: Sally Beauty Holdings Vocabulary
+  description: >-
+    Vocabulary and taxonomy for the Sally Beauty Holdings retail and distribution
+    ecosystem, covering key concepts in professional beauty supply, ecommerce,
+    and salon distribution.
+  version: '1.0'
+  created: '2026-05-02'
+  provider: Sally Beauty Holdings
+
+terms:
+
+  # Business Segments
+  - term: Sally Beauty Supply
+    definition: >-
+      The consumer-facing retail segment of Sally Beauty Holdings, selling professional
+      beauty products to both general consumers and licensed professionals through
+      retail stores and sallybeauty.com.
+    related: [BSG, Retail, Consumer]
+    tags: [Segment, Retail]
+
+  - term: Beauty Systems Group
+    definition: >-
+      The professional-only distribution segment of Sally Beauty Holdings, selling
+      exclusively to licensed salon professionals through CosmoProf and Armstrong
+      McCall store brands.
+    related: [Sally Beauty Supply, Professional, Distribution]
+    tags: [Segment, Professional]
+
+  - term: BSG
+    definition: >-
+      Abbreviation for Beauty Systems Group, the professional distribution arm
+      of Sally Beauty Holdings.
+    related: [Beauty Systems Group]
+    tags: [Segment, Abbreviation]
+
+  - term: CosmoProf
+    definition: >-
+      A BSG store brand offering professional-only beauty supply distribution to
+      licensed cosmetologists, salon owners, and beauty professionals.
+    related: [BSG, Professional, Distribution]
+    tags: [Brand, Professional]
+
+  - term: Armstrong McCall
+    definition: >-
+      A regional BSG distribution brand primarily serving the South and Southeast
+      US markets for professional beauty supply.
+    related: [BSG, Professional, Distribution]
+    tags: [Brand, Professional]
+
+  # Product Categories
+  - term: Hair Color
+    definition: >-
+      Professional and consumer hair color products including permanent color,
+      semi-permanent, bleach/lighteners, toners, and color-related treatments.
+    related: [Developer, Toner, Bleach]
+    tags: [Category, Hair]
+
+  - term: Developer
+    definition: >-
+      Hydrogen peroxide-based activating solution used with hair color products
+      to achieve the desired color result. Available in various volumes (10V, 20V, 30V, 40V).
+    related: [Hair Color]
+    tags: [Product, Hair Color]
+
+  - term: Professional Only
+    definition: >-
+      Products restricted to licensed cosmetologists, estheticians, nail technicians,
+      and other licensed beauty professionals. Sold exclusively through BSG channels.
+    related: [BSG, Licensed Professional]
+    tags: [Access, Restriction]
+
+  - term: Licensed Professional
+    definition: >-
+      A cosmetologist, esthetician, nail technician, or barber holding a valid
+      state-issued professional license, eligible to purchase professional-only products.
+    related: [Professional Only, BSG]
+    tags: [Customer, Identity]
+
+  - term: Beauty Club Card
+    definition: >-
+      Sally Beauty Supply's loyalty reward program providing members with points,
+      discounts, and exclusive offers on beauty products.
+    related: [Loyalty, Consumer, Sally Beauty Supply]
+    tags: [Program, Loyalty]
+
+  # Ecommerce Concepts
+  - term: Salesforce Commerce Cloud
+    definition: >-
+      The ecommerce platform used by Sally Beauty Holdings to power both Sally
+      Beauty Supply and BSG online storefronts, providing product catalog, cart,
+      checkout, and order management.
+    related: [Ecommerce, Platform]
+    tags: [Technology, Platform]
+
+  - term: Social Commerce
+    definition: >-
+      Selling products directly through social media platforms. Sally Beauty
+      expanded into TikTok Shop in 2026 to reach beauty consumers.
+    related: [Ecommerce, TikTok]
+    tags: [Channel, Ecommerce]
+
+  - term: Buy Online Pick Up In Store
+    definition: >-
+      BOPIS fulfillment option allowing customers to purchase products online
+      and pick them up at a nearby Sally Beauty or BSG store.
+    related: [Ecommerce, Fulfillment]
+    tags: [Fulfillment, Ecommerce]
+
+  # Product Terminology
+  - term: SKU
+    definition: >-
+      Stock Keeping Unit — a unique identifier for each distinct product in the
+      Sally Beauty Holdings catalog, used to track inventory and sales.
+    related: [Product, Inventory]
+    tags: [Product, Identifier]
+
+  - term: UPC
+    definition: >-
+      Universal Product Code — barcode standard used to identify products
+      across retail channels for inventory and point-of-sale scanning.
+    related: [Product, SKU]
+    tags: [Product, Identifier]
+
+  - term: Planogram
+    definition: >-
+      A visual diagram indicating how and where retail products should be displayed
+      on store shelves, used by Sally Beauty store merchandising teams.
+    related: [Retail, Store]
+    tags: [Operations, Retail]
