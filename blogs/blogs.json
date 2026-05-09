@@ -1,0 +1,13 @@
+{
+  "repo": "sally-beauty-holdings",
+  "feeds": [
+    {
+      "source": "https://www.sallybeautyholdings.com/newsroom",
+      "feed_url": "https://www.sallybeautyholdings.com/rss/",
+      "title": "RSS - Annual Reports - Sally Beauty Holdings, Inc.",
+      "saved": 0
+    }
+  ],
+  "fetched": "2026-05-09T20:17:51Z",
+  "post_count": 0
+}
