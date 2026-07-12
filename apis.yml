@@ -63,6 +63,8 @@ apis:
         url: https://www.armstrongmccall.com
 
 common:
+  - type: DomainSecurity
+    url: security/sally-beauty-holdings-domain-security.yml
   - type: Website
     url: https://www.sallybeautyholdings.com
   - type: InvestorRelations
