@@ -2,10 +2,6 @@
   "repo": "sally-beauty-holdings",
   "feeds": [
     {
-      "source": "https://www.sallybeautyholdings.com/newsroom",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://www.sallybeautyholdings.com/rss/",
       "feed_url": "https://www.sallybeautyholdings.com/rss/",
       "title": "",
@@ -27,6 +23,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 1
 }
