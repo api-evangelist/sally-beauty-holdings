@@ -24,6 +24,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sally-beau
 tags:
   - Beauty
   - Retail
+  - E-Commerce
+  - Professional
+  - Consumer
+  - Fortune 1000
+tags_raw:
+  - Beauty
+  - Retail
   - Ecommerce
   - Professional
   - Consumer
@@ -43,6 +50,11 @@ apis:
       Pick Up In Store) and TikTok social commerce integration.
     humanURL: https://www.sallybeauty.com
     tags:
+      - E-Commerce
+      - Beauty
+      - Consumer
+      - Retail
+    tags_raw:
       - Ecommerce
       - Beauty
       - Consumer
