@@ -13,18 +13,16 @@
       "feed_url": "https://www.sallybeautyholdings.com/investor-relations/financial-information/press-releases",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
+      "method": "none"
     },
     {
       "source": "https://www.sallybeautyholdings.com/investor-relations",
       "feed_url": "https://www.sallybeautyholdings.com/investor-relations",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-08-15T12:11:08Z",
+  "fetched": "2026-08-22T20:20:02Z",
   "post_count": 1
 }
