@@ -2,6 +2,13 @@
   "repo": "sally-beauty-holdings",
   "feeds": [
     {
+      "source": "https://www.sallybeautyholdings.com/investor-relations",
+      "feed_url": "https://www.sallybeautyholdings.com/investor-relations",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.sallybeautyholdings.com/rss/",
       "feed_url": "https://www.sallybeautyholdings.com/rss/",
       "title": "",
@@ -13,19 +20,10 @@
       "feed_url": "https://www.sallybeautyholdings.com/investor-relations/financial-information/press-releases",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
-      "source": "https://www.sallybeautyholdings.com/investor-relations",
-      "feed_url": "https://www.sallybeautyholdings.com/investor-relations",
-      "title": "",
-      "saved": 0,
       "method": "none"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 1,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
