@@ -1,7 +1,9 @@
 ---
 title: Sally Beauty Expands 'Color Before You Commit' ...
 url: https://www.sallybeautyholdings.com/investor-relations/financial-information/press-releases/2019/11-05-2019-154239632
-date: '2026-05-25'
+published: '2019-11-05'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Sally Beauty Holdings" press release artificial intelligence'
 position: 1
 source: serpapi-google

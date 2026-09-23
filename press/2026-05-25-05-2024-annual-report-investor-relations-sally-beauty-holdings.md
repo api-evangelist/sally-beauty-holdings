@@ -1,7 +1,9 @@
 ---
 title: 2024 Annual Report - Investor Relations - Sally Beauty Holdings
 url: http://investor.sallybeautyholdings.com/~/media/Files/S/Sally-Beauty/annual-report/2024-annual-report.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Sally Beauty Holdings" press release artificial intelligence'
 position: 5
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Perfect Corp. partners with Sally Beauty on AI hair color ...
 url: https://www.retailcustomerexperience.com/news/perfect-corp-partners-with-sally-beauty-on-ai-hair-color-experience/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Sally Beauty Holdings" press release artificial intelligence'
 position: 4
 source: serpapi-google
