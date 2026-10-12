@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sally-beauty-holdings/integrations
+- https://n8n.io/integrations/sally-beauty-holdings/
+- https://composio.dev/toolkits/sally-beauty-holdings
+- https://monid.ai/tools/sally-beauty-holdings
+checked:
+- https://composio.dev/toolkits/sally-beauty-holdings
+- https://monid.ai/tools/sally-beauty-holdings
+- https://n8n.io/integrations/sally-beauty-holdings/
+- https://zapier.com/apps/sally-beauty-holdings/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
