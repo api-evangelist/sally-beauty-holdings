@@ -66,37 +66,131 @@
 
 Sally Beauty Holdings, Inc. is a leading international specialty retailer and distributor of professional beauty supplies. Operates through two segments: Sally Beauty Supply (consumer-facing beauty retail) and Beauty Systems Group (BSG, professional-only distribution). The company serves salon professionals, colorists, and beauty enthusiasts with over 4,800 stores globally.
 
-## Business Segments
+**Areas:** Beauty · Retail · E-Commerce · Professional · Consumer · Fortune 1000
 
-| Segment | Description |
+## Sally Beauty Holdings on APIs.io
+
+Everything profiled for Sally Beauty Holdings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sally-beauty-holdings/](https://apis.io/providers/sally-beauty-holdings/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Sally Beauty Supply Ecommerce](https://apis.io/apis/sally-beauty-holdings/sallybeauty-ecommerce/) — Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order…
+- [Beauty Systems Group (BSG) Professional Platform](https://apis.io/apis/sally-beauty-holdings/bsg-ecommerce/) — The Beauty Systems Group professional distribution platform serving licensed salon professionals. Provides product ordering, professional pricing, loyalty…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Sally Beauty Product](https://apis.io/schemas/sally-beauty-holdings/sally-beauty-product/)
+
+#### JSON Structure (1)
+
+Data models expressed in JSON Structure.
+
+- [Sally Beauty Product Structure](https://apis.io/json-structure/sally-beauty-holdings/sally-beauty-product-structure/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sally Beauty Holdings Context](https://apis.io/jsonld/sally-beauty-holdings/sally-beauty-holdings-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Sally Beauty Holdings Vocabulary](https://apis.io/vocabularies/sally-beauty-holdings/sally-beauty-holdings-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sally Beauty Holdings — jsonschema rules](https://apis.io/rules/sally-beauty-holdings/sally-beauty-holdings-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sally Beauty Holdings Domain Security](https://apis.io/security/sally-beauty-holdings/sally-beauty-holdings-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sally Beauty Holdings Plans Pricing](https://apis.io/plans/sally-beauty-holdings/sally-beauty-holdings-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sally Beauty Holdings Rate Limits](https://apis.io/rate-limits/sally-beauty-holdings/sally-beauty-holdings-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Sally Beauty Holdings Finops](https://apis.io/finops/sally-beauty-holdings/sally-beauty-holdings-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sallybeautyholdings.com)
+- [Blog](https://www.sallybeautyholdings.com/newsroom)
+
+## API Evangelist rating
+
+**Kin Score 10.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [Sally Beauty Supply](https://www.sallybeauty.com) | Consumer and professional retail for hair color, nail, skincare, and tools |
-| [Beauty Systems Group (BSG)](https://www.cosmoprofbeauty.com) | Professional-only distribution through CosmoProf and Armstrong McCall |
+| Discoverability | 57.1 |
+| Contract quality | 6.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 7.9 |
 
-## Resources
+**Agent readiness 0.6** — human-only
 
-- **Corporate Website**: [sallybeautyholdings.com](https://www.sallybeautyholdings.com)
-- **Sally Beauty Supply**: [sallybeauty.com](https://www.sallybeauty.com)
-- **CosmoProf (BSG)**: [cosmoprofbeauty.com](https://www.cosmoprofbeauty.com)
-- **Armstrong McCall**: [armstrongmccall.com](https://www.armstrongmccall.com)
-- **Investor Relations**: [sallybeautyholdings.com/investor-relations](https://www.sallybeautyholdings.com/investor-relations)
-- **Loyalty Program**: [Beauty Club Card](https://www.sallybeauty.com/beauty-club-card)
-- **LinkedIn**: [linkedin.com/company/sally-beauty-company](https://www.linkedin.com/company/sally-beauty-company)
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Artifacts
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-### JSON Schema
-- [sally-beauty-product-schema.json](json-schema/sally-beauty-product-schema.json) — Beauty product entity schema
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sally-beauty-holdings/](https://apis.io/providers/sally-beauty-holdings/).
 
-### JSON Structure
-- [sally-beauty-product-structure.json](json-structure/sally-beauty-product-structure.json) — Product structure documentation
+## How this profile is made
 
-### JSON-LD
-- [sally-beauty-holdings-context.jsonld](json-ld/sally-beauty-holdings-context.jsonld) — Linked data context for retail entities
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-### Vocabulary
-- [sally-beauty-holdings-vocabulary.yml](vocabulary/sally-beauty-holdings-vocabulary.yml) — Beauty retail terminology
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sally Beauty Holdings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintained By
+## Open an issue
 
-[Kin Lane](mailto:kin@apievangelist.com) — [API Evangelist](https://apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sally-beauty-holdings/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
